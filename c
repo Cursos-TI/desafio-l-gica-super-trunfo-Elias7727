@@ -1,10 +1,15 @@
 #include <stdio.h>
+
 int main() {
-    int cidade = 0;
     
-    printf ("cidade01 \n");
-    scanf("%s", codigo);
-    printf(cidade02 ");
-    scanf  
+    int codigo = 0;
+
+    printf("digite o codigo da cidade: %d.\n", codigo);
+
+    printf("digite um codigo:\n");
+    scanf("%d", &codigo);
+
+    printf("o codigo informado %d.\n", codigo);
+
+
 }
-    
